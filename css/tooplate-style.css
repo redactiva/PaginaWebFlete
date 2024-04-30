@@ -172,6 +172,12 @@ button:focus {
   text-align: center;
   width: 100%;
 }
+.wa{
+  position: fixed;
+  bottom: 60px;
+  right: 30px;
+  width: 7%;
+}
 
 a {
   transition: all 0.3s ease;
