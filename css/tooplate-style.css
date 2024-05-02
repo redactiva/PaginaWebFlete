@@ -25,7 +25,10 @@ p {
   border-color: #6c757d;
   cursor: pointer;
 }
-
+#map {
+  height: 300px;
+  width: 80%;
+}
 #mainNav {
   background: white;
   padding: 5px 15px;
@@ -171,6 +174,12 @@ button:focus {
   color: white;
   text-align: center;
   width: 100%;
+}
+.wa{
+  position: fixed;
+  bottom: 60px;
+  right: 30px;
+  width: 5%;
 }
 
 a {
