@@ -25,7 +25,10 @@ p {
   border-color: #6c757d;
   cursor: pointer;
 }
-
+#map {
+  height: 300px;
+  width: 80%;
+}
 #mainNav {
   background: white;
   padding: 5px 15px;
@@ -41,6 +44,7 @@ p {
 
 .navbar {
   justify-content: flex-end;
+  margin-bottom: 1em;
 }
 button {
   cursor: pointer;
@@ -171,6 +175,12 @@ button:focus {
   text-align: center;
   width: 100%;
 }
+.wa{
+  position: fixed;
+  bottom: 60px;
+  right: 30px;
+  width: 5%;
+}
 
 a {
   transition: all 0.3s ease;
@@ -179,7 +189,7 @@ a {
 .btn {
   background-color: white;
   border-color: gray;
-  border-radius: 0;
+  border-radius: 1em;
   color: #666666;
   font-size: 1.3rem;
   margin-top: 5px;
@@ -441,7 +451,6 @@ a {
 @media screen and (max-width: 768px) {
   .navbar {
     justify-content: flex-end;
-    position: fixed;
     right: 0;
     top: 0;
     z-index: 1000;
