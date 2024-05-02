@@ -25,7 +25,10 @@ p {
   border-color: #6c757d;
   cursor: pointer;
 }
-
+#map {
+  height: 300px;
+  width: 80%;
+}
 #mainNav {
   background: white;
   padding: 5px 15px;
